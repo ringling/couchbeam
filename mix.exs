@@ -6,8 +6,8 @@ defmodule Couchbeam.Mixfile do
           app: :couchbeam,
           version: "1.4.3",
           description: "Erlang CouchDB client",
-          deps: deps,
-          package: package,
+          deps: deps(),
+          package: package(),
           language: :erlang
       ]
   end
